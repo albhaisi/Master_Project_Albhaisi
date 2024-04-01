@@ -13,7 +13,19 @@ Different object detection approaches are used to detect different classes. All 
 metrics.
 4- At the final stage, based on evaluation results and which result is better than another, the detection approaches results can be improved.
 
-Remark: The master-thesis will be uploaded here
+## Thesis outline
+
+In chapter 1, introduction, motivation, and problem description were presented. This chapter makes it clear why improvements to object detection are needed and the method that is used for this task.
+In chapter 2, important concepts and methods that are used throughout the project are introduced under the name theoretical background. This is required in order to help the readers gain ideas and knowledge on all topics considered. The project is divided into
+detection and tracking tasks. Both of them will be included in the theoretical background. 
+Firstly, object detection contains explanations for the detection methods used and important definitions used in the detection task. Secondly, object tracking contains important definitions for understanding the tracking mechanisms and the tool used for the task.
+Thirdly, the cross-validation methods, which are used in data split tasks, are introduced. Finally, the evaluation metrics for detection as well as tracking, which are available on the nuScenes dataset, will be explained in detail, including why every metric is needed for evaluation. 
+Chapter 3 explains the evaluation strategy. Firstly, the used dataset is introduced at the beginning. After that, the toolbox used for data training is presented. At the end, the experimental setup will be described, along with how the experiment was done, and the
+steps of the project and the preprocessing for evaluation will be summarized.
+In chapter 4, the tracking and detection results will be discussed to see which result is better than the others. In the detection results, all splits for the detection results are evaluated using different metrics. On the other hand, tracking results, which will be divided into three parts, The first part will include an overall evaluation of all scenes from the original splits. Second part of the evaluation for every scene and see scenes with good results and scenes with bad results, and most identity switches. In the third section, some examples will be discussed, as well as the behavior of some instances.
+Finally, chapter 5 contains a summary of this thesis.
+
+Remark: The master-thesis is uploaded above.
 
 ## Basics
 
