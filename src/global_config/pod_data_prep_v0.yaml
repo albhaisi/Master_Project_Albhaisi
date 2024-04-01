@@ -1,0 +1,16 @@
+init:
+  dataroot: 'dataroot'
+  version: 'v1.0-trainval'
+detection_config: 'detection_itsc_2022' # 'Error: Configuration name must be have prefix "detection_" or "tracking_"!'
+
+detection_system:
+  CenterPoint_Pillar_02:  /detection_eval/CenterPoint/Pillar02
+  CenterPoint_Voxel_01:   /detection_eval/CenterPoint/Voxel01
+  CenterPoint_Voxel_0075: /detection_eval/CenterPoint/Voxel0075
+  PointPillar:            /detection_eval/PointPillar
+
+cross_fold: ['LOOCV_1','LOOCV_2','LOOCV_3','LOOCV_4','LOOCV_5'] # E5CV_1  E5CV_10  E5CV_2  E5CV_3  E5CV_4  E5CV_5  E5CV_6  E5CV_7  E5CV_8  E5CV_9  LOOCV_1  LOOCV_2  LOOCV_3  LOOCV_4  LOOCV_5
+#   postfix: '_val'
+
+detection_candidate_fusion:
+  resultpath: /detection_eval/pod/raw

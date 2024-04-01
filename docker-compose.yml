@@ -1,0 +1,23 @@
+version: '2'
+
+services:
+    base:
+        image: my_nuscenes
+        container_name: DEV_WS
+        build:
+            context: .
+            dockerfile: ./setup/Dockerfile
+        stdin_open: true # docker run -i
+        tty: true        # docker run -t
+        volumes: 
+            - ./src:/app/
+            - ./nuscenes-adapted:/app/nuscenes
+            - ./immortaltracker-adapted:/app/immortaltracker
+            - /home/albhaisi/Desktop/ws/data:/dataroot/
+            - /home/albhaisi/Desktop/ws/det-track-result/detection-results:/detection_eval/
+            - /home/albhaisi/Desktop/ws/det-track-result/Tracking-results
+            - /home/albhaisi/Desktop/ws/nb3-IoU-GIOU-threshold def/nuscenes
+            
+            
+        #command: python3 test.py
+        command: bash
