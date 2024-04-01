@@ -104,7 +104,7 @@ Render some GT and Pd as well Ids for different scenes for class car
 
 ### Visualize one instance 
 
-![Tracking-car](Detection-Tracking-metrics-result/Documentation/Tracking-car.jpg)
+![Tracking-car](Detection-Tracking-metrics-result/visualization/Tracking-car.jpg)
 
 ## Detection evaluation metrics result
 
@@ -115,12 +115,12 @@ include the final metrics results for different detection architectures
 
 Render example for centerpoint-pillar02 
 
-![detection-centerpoint-pillar02](Detection-Tracking-metrics-result/Documentation/detection-centerpoint-pillar02.png)
+![detection-centerpoint-pillar02](Detection-Tracking-metrics-result/visualization/detection-centerpoint-pillar02.png)
 
 
 ### Visualize precision-recall curve for class car
 
- ![car-pr](Detection-Tracking-metrics-result/Documentation/car-pr.png)
+ ![car-pr](Detection-Tracking-metrics-result/visualization/car-pr.png)
 
 
 
