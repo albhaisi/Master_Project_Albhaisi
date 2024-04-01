@@ -100,7 +100,7 @@ https://www.nuscenes.org/tracking?externalData=all&mapData=all&modalities=Any
 
 Render some GT and Pd as well Ids for different scenes for class car
 
-![1537295833898809](Detection-Tracking-metrics-result/Documentation/centerpoint_02pillar-LOOCV01/3ada261efee347cba2e7557794f1aec8/car/1537295833898809.png)
+![1537295833898809](Detection-Tracking-metrics-result/centerpoint_02pillar-LOOCV01/3ada261efee347cba2e7557794f1aec8/car/1537295833898809.png)
 
 ### Visualize one instance 
 
